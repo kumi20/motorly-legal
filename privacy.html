@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Polityka prywatności</h1>
-<p class="muted">Motorly: Koszty Auta · ostatnia aktualizacja: 24 października 2026 · <a href="#en">English below</a></p>
+<p class="muted">Motorly: Koszty Auta · ostatnia aktualizacja: 15 listopada 2026 · <a href="#en">English below</a></p>
 
 <div class="lang">
 <p>Motorly („aplikacja”) to aplikacja do zapisywania i analizy kosztów samochodu, rozwijana przez Jakuba Kumięgę. Ta polityka opisuje, co dzieje się z Twoimi danymi.</p>
@@ -52,12 +52,16 @@
 
 <h2>Lokalizacja</h2>
 <p>Moduł „W pobliżu” używa Twojej lokalizacji tylko podczas wyszukiwania stacji, ASO i warsztatów. Wyszukiwanie miejsc i tras obsługuje Apple Maps (MapKit) na zasadach <a href="https://www.apple.com/legal/privacy/">polityki prywatności Apple</a>.</p>
-<p>Przy przejeździe do ewidencji aplikacja może odczytać Twoją lokalizację raz na początku i raz na końcu trasy, żeby uzupełnić pola „Skąd” i „Dokąd”. Apple Maps zamienia punkt na adres; zapisywany jest tylko adres, który możesz poprawić. Samego punktu aplikacja nie zapisuje. Funkcję wyłączysz w Ustawieniach aplikacji.</p>
+<p>Przy przejeździe do ewidencji aplikacja może odczytać Twoją lokalizację raz na początku i raz na końcu trasy, żeby uzupełnić pola „Skąd” i „Dokąd” i wyliczyć kilometry z trasy Apple Maps. Apple Maps zamienia punkt na adres i wylicza trasę; w ewidencji zapisywany jest tylko adres i kilometry, które możesz poprawić. Punkt startu jest przechowywany tylko na Twoim urządzeniu do zakończenia albo odrzucenia przejazdu (najdłużej 24 godziny), nie trafia do kopii zapasowej ani do iCloud. Funkcję wyłączysz w Ustawieniach aplikacji.</p>
+<p>Po włączeniu przełącznika „GPS” aplikacja mierzy przejechane kilometry z GPS podczas przejazdu rozpoczętego w aplikacji, także przy zablokowanym ekranie (widać wtedy niebieski wskaźnik lokalizacji). Na urządzeniu zostaje tylko suma metrów i ostatni punkt pomiaru, bez śladu trasy; po zakończeniu przejazdu są usuwane, a do ewidencji trafiają tylko kilometry. Przełącznik jest domyślnie wyłączony.</p>
 <p>Przypomnienie o sezonowej wymianie opon korzysta z prognozy pogody Apple Weather (WeatherKit). Aplikacja wysyła do Apple ostatnią znaną lokalizację urządzenia, żeby pobrać prognozę temperatur; nie zapisuje jej i nie wysyła twórcy.</p>
 <p>Lokalizacja nie jest wysyłana do twórcy aplikacji. Jedyne położenie, które trafia do wspólnej bazy, to położenie stacji w zgłoszeniu ceny (opis wyżej).</p>
 
 <h2>Skróty i Siri</h2>
-<p>Akcje Motorly w aplikacji Skróty i w Siri (np. dodanie tankowania, start i koniec przejazdu) działają na Twoim urządzeniu i zapisują dane tak jak aplikacja. Akcje, które zapisują lub pokazują Twoje dane, wymagają odblokowanego urządzenia.</p>
+<p>Akcje Motorly w aplikacji Skróty i w Siri (np. dodanie tankowania, start i koniec przejazdu) działają na Twoim urządzeniu i zapisują dane tak jak aplikacja. Akcje, które zapisują lub pokazują Twoje dane, wymagają odblokowanego urządzenia. Wyjątkiem są start przejazdu, „Zakończ i zapisz przejazd” oraz przyciski Start i Stop w widżecie: działają przy zablokowanym urządzeniu, żeby automatyzacja po połączeniu z autem i po rozłączeniu mogła działać bez dotykania telefonu. Dotyczą tylko przejazdu trwającego na tym urządzeniu; zapisany w ten sposób wpis ma oznaczenie „Do sprawdzenia”. Powiadomienia o przejeździe nie zawierają adresów ani celu.</p>
+<h2>Odczyt polisy i podsumowania</h2>
+<p>Gdy dodasz zdjęcie albo PDF polisy OC, aplikacja odczytuje na Twoim urządzeniu datę końca i składkę, żeby je podpowiedzieć. Tekst polisy nie jest zapisywany ani nigdzie wysyłany; zapisuje się tylko to, co zatwierdzisz.</p>
+<p>„Twój miesiąc w Motorly” i „Rok w Motorly” są liczone na Twoim urządzeniu z Twoich wpisów. Obrazek do udostępnienia powstaje na urządzeniu i trafia tylko tam, gdzie sam go wyślesz; nie zawiera numeru rejestracyjnego, VIN, adresów ani celów przejazdów, a kwoty możesz ukryć.</p>
 
 <h2>Pomoc przy kodach błędów</h2>
 <p>Opisy kodów błędów OBD2 pochodzą z tabeli wbudowanej w aplikację. Przyciski „Szukaj w internecie” i „Zapytaj AI (ChatGPT)” otwierają przeglądarkę z wyszukiwaniem Google lub pytaniem do ChatGPT, tylko gdy je stukniesz. Przekazywany jest wyłącznie kod błędu oraz marka, model i rok auta – nigdy numer VIN, numer rejestracyjny ani nazwa auta. Dalej obowiązują zasady prywatności Google lub OpenAI.</p>
@@ -81,7 +85,7 @@
 
 <div class="lang" id="en">
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: 24 October 2026</p>
+<p class="muted">Last updated: 15 November 2026</p>
 <p>Motorly ("the app") is an app for recording and analysing car costs, developed by Jakub Kumięga. This policy explains what happens to your data.</p>
 
 <h2>Data we collect</h2>
@@ -123,12 +127,16 @@
 
 <h2>Location</h2>
 <p>The "Nearby" module uses your location only while searching for fuel stations, dealers and garages. Place and route searches are handled by Apple Maps (MapKit) under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
-<p>For a mileage log trip the app may read your location once at the start and once at the end to fill in "From" and "To". Apple Maps turns the point into an address; only the address, which you can edit, is saved. The point itself is not stored. You can turn this off in the app's Settings.</p>
+<p>For a mileage log trip the app may read your location once at the start and once at the end to fill in "From" and "To" and to calculate the kilometres from the Apple Maps route. Apple Maps turns the point into an address and calculates the route; only the address and kilometres, which you can edit, are saved in the log. The starting point is kept only on your device until the trip is finished or discarded (at most 24 hours) and is not included in backups or iCloud. You can turn this off in the app's Settings.</p>
+<p>With the "GPS" switch on, the app measures the kilometres driven with GPS during a trip started in the app, also while the screen is locked (the blue location indicator is shown). Only the sum of metres and the last measured point stay on the device, with no track of the route; they are deleted when the trip ends, and only the kilometres go into the log. The switch is off by default.</p>
 <p>The seasonal tyre change reminder uses the Apple Weather (WeatherKit) forecast. The app sends the device's last known location to Apple to get the temperature forecast; it does not store it or send it to the developer.</p>
 <p>Your location is never sent to the developer. The only position that goes to the shared database is the station position in a price report (see above).</p>
 
 <h2>Shortcuts and Siri</h2>
-<p>Motorly actions in the Shortcuts app and Siri (for example adding a fill-up, starting and finishing a trip) run on your device and save data just like the app. Actions that save or show your data require an unlocked device.</p>
+<p>Motorly actions in the Shortcuts app and Siri (for example adding a fill-up, starting and finishing a trip) run on your device and save data just like the app. Actions that save or show your data require an unlocked device. The exceptions are starting a trip, "End and Save Trip" and the Start and Stop buttons in the widget: they work on a locked device so that automations when connecting to and disconnecting from the car can run without touching the phone. They only act on the trip running on this device; an entry saved this way is marked "To review". Trip notifications contain no addresses or purpose.</p>
+<h2>Policy reading and recaps</h2>
+<p>When you add a photo or PDF of a liability (OC) insurance policy, the app reads the end date and premium on your device to suggest them. The policy text is not stored or sent anywhere; only what you confirm is saved.</p>
+<p>"Your Month in Motorly" and "Your Year in Motorly" are calculated on your device from your entries. The image to share is created on the device and goes only where you send it; it contains no licence plate, VIN, addresses or trip purposes, and you can hide amounts.</p>
 
 <h2>Trouble code help</h2>
 <p>OBD2 trouble code descriptions come from a table built into the app. The "Szukaj w internecie" (web search) and "Zapytaj AI (ChatGPT)" buttons open your browser with a Google search or a ChatGPT question, only when you tap them. Only the trouble code and the car's make, model and year are passed on – never the VIN, the licence plate or the car's name. Google's or OpenAI's privacy policy applies from there.</p>
